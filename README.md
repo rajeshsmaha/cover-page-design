@@ -10,9 +10,127 @@ Write your own steps here.
 
 ## Code:
 Include your HTML code here
+```
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta name="viewport" 
+         content="width=device-width, initial-scale=1.0">
+         <style>
+
+        .bookpage{
+            width: 400px;
+            height: 600px;
+            color:white;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-image: url(/static/pg.png);
+            background-size: cover;
+        }
+            
+
+        .insight{
+            color:whitesmoke;
+
+        }
+
+        
+        .hrstyle{
+            width:100px;
+        }
+        .author{
+        
+            display: inline;
+            position: relative;
+            color: white;
+            top:190px;
+            
+            font-family:Georgia;
+            font-size: medium;
+        }
+        .booktitle{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: larger;
+            text-align: center;
+            position: relative;
+            top: 30px;
+        
+        }
+        .id {
+            width:400px;
+            position: relative;
+            top:180px;
+            
+        }
+        .pub{
+            font-size: medium;
+            position: relative;
+            top:155px;
+            left:330px;
+        }
+        .ed{
+            color: whitesmoke;
+            font-size: medium;
+            font-family: Verdana;
+            position:relative;
+            top:85px;
+
+        }
+        .subtitle{
+            font-family:Tahoma;
+            font-size: large;
+            position: relative;
+            top:40px;
+        }
+        .mypic{
+            position: relative;
+            top: 135px;
+            left: 260px;
+            width: 100px;
+            height: 100px;
+            background-size: cover;
+        }
+        </style>
+        <title>Book Cover Page</title>
+    </head>
+    <body>
+        <div class="bookpage">
+            <div class="insight">
+                SEC INSIGHT
+            </div>
+            <div class="hrstyle">
+                <hr style="color: white;">
+            </div>
+            <div class="booktitle">
+                <h1>Fundamentals of Web Application Development</h1></div>
+            <div class="subtitle">
+                HTML and CSS Combined with Django Architecture
+            </div>
+            <div class="mypic">
+                <img src="/static/my.png" width="130" height="145" alt="">
+            </div>
+            <div class="id">
+                <hr style="color: orange;">
+            </div>
+            <div class="author">
+               <p><b>HARISH</b></p>
+            </div>
+            <div class="pub">
+                SEC
+            </div>
+            <div class="ed">
+                <b>Seventh Edition</b>
+            </div>
+        </div>
+    </body>
+</html>
+```
 
 ## Output:
-Include your output screenshot here
+![WhatsApp Image 2024-01-08 at 13 42 34_101043a6](https://github.com/rajeshsmaha/cover-page-design/assets/147608800/057512f4-df69-4c97-a610-42550bf6d79c)
+
 
 ## Result:
-Write your result
+This code is successfully executed.
